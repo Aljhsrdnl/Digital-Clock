@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/fontawesome-free-5.14.0-web/css/all.css">
+    <link rel="stylesheet" href="main.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <h1 class="heading">Alejah's To Do List</h1>
+
+    <div class="input_div">
+        <input type="text" placeholder="To Do" id="input_to_do">
+        <button id="add_button">
+            <i class="fas fa-plus"></i>
+        </button>
+        <div class="select">
+            <select name="todos" class="filter-todo" id="">
+                <option value="all">All</option>
+                <option value="completed">Completed</option>
+                <option value="uncompleted">Uncompleted</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="todo-container">
+        <ul class="todo-list"></ul>   
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
